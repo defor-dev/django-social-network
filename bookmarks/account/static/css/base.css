@@ -35,6 +35,10 @@ ol {
     line-height:1.5;
 }
 
+span.line {
+    color: #000000;
+}
+
 #header {
     padding:10px 100px;
     font-size:14px;

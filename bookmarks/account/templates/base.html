@@ -7,7 +7,7 @@
   </head>
   <body>
     <div id="header">
-      <span class="logo">Bookmarks</span>
+      <span class="logo"><a href="{% url "dashboard" %}">Bookmarks</a></span>
       
       {% if request.user.is_authenticated %}
         <ul class="menu">
@@ -30,6 +30,8 @@
         {% else %}
           <a href="{% url "login" %}">Log-in</a>
         {% endif %}
+        <span class="line"> | </span>
+        <a href="{% url "edit" %}">Edit profile</a>
       </span>
 
     </div>

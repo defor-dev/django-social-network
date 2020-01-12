@@ -10,3 +10,4 @@ This is the second project from a book.
 
 * Django(2.0.5)
 * Pillow(7.0.0)
+* social-auth-app-django(3.1.0)

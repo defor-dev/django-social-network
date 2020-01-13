@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['mysite.com', 'localhost', '127.0.0.1']
 
 INSTALLED_APPS = [
     'account.apps.AccountConfig',
+    'images.apps.ImagesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -141,5 +142,5 @@ AUTHENTICATION_BACKENDS = [
     'social_core.backends.google.GoogleOAuth2',
 ]
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = 'xxx'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'xxx'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '472898387941-d37kv45giraecdbmmhhvqg34q05sugmk.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'QDnPjWL27e2SR7B6CtTO6Rbr'
